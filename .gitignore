@@ -1,2 +1,8 @@
 *~
 *.beam
+
+# intellij config files
+.idea/
+
+# mix build files
+_build/
