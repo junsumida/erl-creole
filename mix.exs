@@ -7,8 +7,8 @@ defmodule EredisCluster.Mixfile do
     [app: :erl_creole,
      version: @version,
      description: "Converting strings between multibyte encodings and Unicode",
-     package: package,
-     deps: deps]
+     package: package(),
+     deps: deps()]
   end
 
   def application do
